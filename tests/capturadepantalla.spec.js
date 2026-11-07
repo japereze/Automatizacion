@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-// Ejercicio 5
+// Ejercicio de capturar la pantalla por server
 test("abre la página y guarda una captura de pantalla", async ({
   page,
 }, testInfo) => {
