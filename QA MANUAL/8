@@ -1,0 +1,8 @@
+// 8. Crear una variable promedio y mostrar si pasó la materia.
+let promedio = 80;
+
+if (promedio >= 70) {
+    console.log("Pasó la materia");
+} else {
+    console.log("No pasó la materia");
+}

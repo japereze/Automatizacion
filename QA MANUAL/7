@@ -1,0 +1,6 @@
+// 7. Verificar si un número está entre 1 y 10.
+let numero2 = 7;
+
+if (numero2 >= 1 && numero2 <= 10) {
+    console.log("El número está entre 1 y 10");
+}

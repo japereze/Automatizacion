@@ -1,0 +1,5 @@
+const nombre = "Jose Armando";
+const edad = 31;
+
+console.log(nombre);
+console.log(edad);

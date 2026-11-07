@@ -1,0 +1,6 @@
+// 2. Verificar si un número es menor que cero.
+let numero = -3;
+
+if (numero < 0) {
+    console.log("El número es menor que cero");
+}

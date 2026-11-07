@@ -1,0 +1,6 @@
+// 9. Verificar si un año es mayor al 2020.
+let año = 2023;
+
+if (año > 2020) {
+    console.log("El año es mayor al 2020");
+}

@@ -1,0 +1,2 @@
+const pais = "EEUU";
+console.log(pais);

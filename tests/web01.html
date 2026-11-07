@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica de Locators - Playwright</title>
+  </head>
+  <body>
+    <h1>Registro de usuario</h1>
+
+    <p>Completa el formulario para crear tu cuenta.</p>
+
+    <form>
+      <!-- Campo de nombre -->
+      <label for="nombre">Nombre</label>
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Introduce tu nombre"
+      />
+
+      <br /><br />
+
+      <!-- Campo de correo -->
+      <label for="correo">Correo electrónico</label>
+      <input
+        type="email"
+        id="correo"
+        name="correo"
+        placeholder="Introduce tu correo"
+      />
+
+      <br /><br />
+
+      <!-- Campo de contraseña -->
+      <label for="password">Contraseña</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Introduce tu contraseña"
+      />
+
+      <br /><br />
+
+      <!-- Checkbox -->
+      <label for="terminos"> Acepto los términos y condiciones </label>
+      <input type="checkbox" id="terminos" name="terminos" />
+
+      <br /><br />
+
+      <!-- Botón -->
+      <button type="submit" data-testid="registro-button">Registrarse</button>
+    </form>
+
+    <br />
+
+    <!-- Enlace -->
+    <a href="https://example.com">
+      <!-- Ir a la página principal -->
+    </a>
+
+    <br /><br />
+
+    <!-- Texto visible -->
+    <p>¡Bienvenido! Gracias por registrarte.</p>
+  </body>
+</html>

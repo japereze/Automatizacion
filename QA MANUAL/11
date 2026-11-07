@@ -1,0 +1,10 @@
+// 11. Crear variables para almacenar nombre, apellido, edad y ciudad.
+let nombre = "Juan";
+let apellido = "Pérez";
+let edad = 28;
+let ciudad = "Madrid";
+
+console.log(nombre);
+console.log(apellido);
+console.log(edad);
+console.log(ciudad);

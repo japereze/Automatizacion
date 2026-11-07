@@ -1,0 +1,8 @@
+// 10. Crear un programa que muestre si una persona puede conducir.
+let edadConducir = 20;
+
+if (edadConducir >= 16) {
+    console.log("Puede conducir");
+} else {
+    console.log("No puede conducir");
+}

@@ -1,0 +1,6 @@
+// 3. Crear una variable usuario y validar si está vacía.
+let usuario = "";
+
+if (usuario === "") {
+    console.log("El usuario está vacío");
+}

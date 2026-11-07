@@ -1,0 +1,9 @@
+// 6. Crear una variable dinero y mostrar si alcanza para comprar un producto.
+let dinero = 500;
+let precio = 300;
+
+if (dinero >= precio) {
+    console.log("Puede comprar el producto");
+} else {
+    console.log("No alcanza el dinero");
+}
